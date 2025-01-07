@@ -9,7 +9,7 @@ const connection = mysql.createConnection({
 
 connection.connect(function(err) {
     if (err) {
-        return console.error('Error: ' + err.message)
+        return console.error('Error msg: ' + err.message)
     }
     console.log('Connected to the MySQL server 2.')
 })
